@@ -1,0 +1,44 @@
+.tasks-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.tasks-table th, .tasks-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.tasks-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.status-column, .title-column, .description-column, .date-column, .actions-column {
+    text-align: center;
+}
+
+/* Couleurs pour le statut */
+.status-pending {
+    background-color: #fffae6; /* Jaune clair */
+}
+
+.status-overdue {
+    background-color: #ffcccc; /* Rouge clair */
+}
+
+/* Icônes d'actions */
+.task-action-icon {
+    margin: 0 5px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.task-action-icon i {
+    transition: 0.3s;
+}
+
+.task-action-icon i:hover {
+    transform: scale(1.2);
+}
